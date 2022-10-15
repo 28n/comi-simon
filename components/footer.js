@@ -5,7 +5,7 @@ const Footer = () => {
     <Box align="center" opacity={0.4} fontSize="sm">
       &copy; {new Date().getFullYear()} Comi Simon. All Rights Reserved. <br />
       developed by{" "}
-      <a href="https://www.samsierra.de" target="_blank">
+      <a href="https://www.samsierra.de" target="_blank" rel="noreferrer">
         Sam Sierra
       </a>
     </Box>

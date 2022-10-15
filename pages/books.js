@@ -45,51 +45,51 @@ const Works = () => (
             title="Soziale Trinität"
             thumbnail={thumbTrinitaet}
           >
-            "EXPOSEÉ"
+            EXPOSEÉ
           </WorkGridItem>
           <WorkGridItem id="toso" title="Toso" thumbnail={thumbToso}>
-            "EXPOSEÉ"
+            EXPOSEÉ
           </WorkGridItem>
           <WorkGridItem
             id="taigru"
             title="Taigru Orakel"
             thumbnail={thumbOrakel}
           >
-            "EXPOSEÉ"
+            EXPOSEÉ
           </WorkGridItem>
           <WorkGridItem
             id="spieglein"
             title="Spieglein, Spieglein an der Wand, was passiert denn nur in unserem Land?"
             thumbnail={thumbSpieglein}
           >
-            "EXPOSEÉ"
+            EXPOSEÉ
           </WorkGridItem>
           <WorkGridItem
             id="mondkanalerdschichten"
             title="Gefangen im Mondkanal - Die neun Erdschichten"
             thumbnail={thumbMK1}
           >
-            "EXPOSEÉ"
+            EXPOSEÉ
           </WorkGridItem>
           <WorkGridItem
             id="mondkanalweisheit"
             title="Gefangen im Mondkanal - Neuen Weisheit"
             thumbnail={thumbMK2}
           >
-            "EXPOSEÉ"
+            EXPOSEÉ
           </WorkGridItem>
           <WorkGridItem
             id="zweitermondkanal"
             title="Im zweiten Mondkanal"
             thumbnail={thumb2MK}
           >
-            "EXPOSEÉ"
+            EXPOSEÉ
           </WorkGridItem>
           <WorkGridItem
             id="michaeldorn"
             title="Michael Dorn und die Mächte der Magie"
           >
-            "EXPOSEÉ"
+            EXPOSEÉ
           </WorkGridItem>
         </SimpleGrid>
       </Section>
