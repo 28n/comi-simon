@@ -83,26 +83,9 @@ const Home = () => (
           Autor
         </Heading>
         <Paragraph>
-          Heute bin ich als „comi simon“ bekannt und möchte mein Wissen und mein
-          erworbenes Verständnis an geisteswissenschaftlichen
-          Forschungsergebnissen, Magisch-spirituellem, sowie politisch sowie
-          politisch Hintergründigem weitergeben. Aus dieser Gesinnung heraus
-          erhalte ich Inspirationen für meine Bücher. Ich bin ein sehr
-          zielstrebiger, analytischer, ausdauernder und interessierter Mensch.
-          Dies hat dazu geführt, dass ich seit meiner Kindheit diverse Werte und
-          Ansichten hinterfrage und versuche, Antworten auf Lebensfragen zu
-          finden . Natürlich bin ich, wie jeder andere auch, ein ewig Lernender.
-          Daher beleuchte ich meine gewonnenen Erkenntnisse von möglichst allen
-          Seiten und versuche damit, jede Einseitigkeit in meinen
-          Betrachtungsweisen zu vermeiden. Mein Ziel ist es, all jenen
-          Gedankenansätze zu liefern, die bereit sind, Themen zu hinterfragen.
-          Natürlich freut es mich, diese Hintergründigkeit in unterhaltsame
-          Romane zu verpacken. Das bereitet mir besonderes Vergnügen, da ich
-          meiner Kreativität freien Lauf lassen kann. Für mich sind Toleranz,
-          Ehrlichkeit und Freiheit die entscheidenden Werte, die ich heute und
-          hier leben kann, indem ich dem Ausdruck verleihen darf, was mich
-          beschäftigt. Mein Motto lautet: „Die Begegnung mit der Welt ist das
-          Spiegelbild des eigenen Inneren.“
+          Ich schreibe unterhaltsame Romane, mit spannenden Aktionen, aber mit einem spirituellen
+          Hintergrund, damit werden die Bücher auch zu eine Quelle des tieferen Wissens, die auf viele
+          Menschen inspirativ wirken könnte.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/books" passHref scroll={false}>
