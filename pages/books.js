@@ -18,6 +18,7 @@ import thumbSpieglein from "../public/book/spieglein.jpg";
 import thumbMK1 from "../public/book/mondkanalErdschichten.jpg";
 import thumbMK2 from "../public/book/mondkanalWeisheit.jpg";
 import thumb2MK from "../public/book/zweitermondkanal.jpg";
+import thumbDorn from "../public/book/MichaelDorn.jpg";
 
 const Works = () => (
   <Layout title="Projekte">
