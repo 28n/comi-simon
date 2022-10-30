@@ -18,7 +18,6 @@ import thumbSpieglein from "../public/book/spieglein.jpg";
 import thumbMK1 from "../public/book/mondkanalErdschichten.jpg";
 import thumbMK2 from "../public/book/mondkanalWeisheit.jpg";
 import thumb2MK from "../public/book/zweitermondkanal.jpg";
-import thumbDorn from "../public/book/MichaelDorn.jpg";
 
 const Works = () => (
   <Layout title="Projekte">
@@ -35,9 +34,9 @@ const Works = () => (
           >
             Ein Einblick in das Versagen der Marktwirtsachft und die Selbstzerstörung der EU
           </WorkGridItem>
-          <WorkGridItem 
-            id="toso" 
-            title="Toso" 
+          <WorkGridItem
+            id="toso"
+            title="Toso"
             thumbnail={thumbToso}
           >
             Im vierten Jahrtausend kämpfen Menschen gegen Androiden, die durch eine gezielte Verseuchung der Nahrungsmittel die Menschengruppen (Meats, Vegis und Prans) zwangen, auch sich gegenseitig zu bekämpfen, um zu überleben.
@@ -75,7 +74,7 @@ const Works = () => (
             title="Im zweiten Mondkanal"
             thumbnail={thumb2MK}
           >
-            In dieser Erzählung wird die Unbefleckte Empfängnis von Maria neu interpretiert, die faszinierende Symbolik in Da Vincis berühmtem Fresko ‚Das Letzte Abendmahl‘, aber auch auf das Verhältnis zwischen Jesus und Maria Magdalena und jenes zwischen Jesus und seinem Lieblingsjünger Johannes beleuchtet. 
+            In dieser Erzählung wird die Unbefleckte Empfängnis von Maria neu interpretiert, die faszinierende Symbolik in Da Vincis berühmtem Fresko ‚Das Letzte Abendmahl‘, aber auch auf das Verhältnis zwischen Jesus und Maria Magdalena und jenes zwischen Jesus und seinem Lieblingsjünger Johannes beleuchtet.
           </WorkGridItem>
           <WorkGridItem
             id="michaeldorn"
