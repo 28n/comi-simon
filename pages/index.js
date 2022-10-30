@@ -25,6 +25,8 @@ import {
   IoLogoFacebook,
 } from "react-icons/io5";
 
+import { AiOutlineAmazon } from "react-icons/ai";
+
 import Image from "next/image";
 
 const ProfileImage = chakra(Image, {
@@ -34,17 +36,6 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
-      {/* <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(10px)' }}
-      >
-        Hello, I&apos;m an indie app developer based in Japan!
-      </Box> */}
-
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
@@ -83,9 +74,15 @@ const Home = () => (
           Autor
         </Heading>
         <Paragraph>
-          Ich schreibe unterhaltsame Romane, mit spannenden Aktionen, aber mit einem spirituellen
-          Hintergrund, damit werden die Bücher auch zu eine Quelle des tieferen Wissens, die auf viele
-          Menschen inspirativ wirken könnte.
+          Heute bin ich als „comi simon“ bekannt und möchte mein Wissen und mein erworbenes Verständnis an geisteswissenschaftlichen Forschungsergebnissen, Magisch-spirituellem, sowie politisch sowie politisch Hintergründigem weitergeben. Aus dieser Gesinnung heraus erhalte ich Inspirationen für meine Bücher.
+
+Ich bin ein sehr zielstrebiger, analytischer, ausdauernder und interessierter Mensch. Dies hat dazu geführt, dass ich seit meiner Kindheit diverse Werte und Ansichten hinterfrage und versuche, Antworten auf Lebensfragen zu finden . Natürlich bin ich, wie jeder andere auch, ein ewig Lernender. Daher beleuchte ich meine gewonnenen Erkenntnisse von möglichst allen Seiten und versuche damit, jede Einseitigkeit in meinen Betrachtungsweisen  zu vermeiden.
+
+Mein Ziel ist es, all jenen Gedankenansätze zu liefern, die bereit sind, Themen zu hinterfragen. Natürlich freut es mich, diese Hintergründigkeit in unterhaltsame Romane zu verpacken. Das bereitet mir besonderes Vergnügen, da ich meiner Kreativität freien Lauf lassen kann.
+
+Für mich sind Toleranz, Ehrlichkeit und Freiheit die entscheidenden Werte, die ich heute und hier leben kann, indem ich dem Ausdruck verleihen darf, was mich beschäftigt.
+
+Mein Motto lautet: „Die Begegnung mit der Welt ist das Spiegelbild des eigenen Inneren.“
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/books" passHref scroll={false}>
@@ -96,30 +93,12 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Steckbrief
-        </Heading>
-        <BioSection>
-          <BioYear>2015</BioYear>
-          Erster Kontakt mit dem Programmieren
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Richtungswechsel zum Frontend
-        </BioSection>
-        <BioSection>
-          <BioYear>2021 bis jetzt</BioYear>
-          Selbstständiger Webentwickler
-        </BioSection>
-      </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           Ich ♥
         </Heading>
         <Paragraph>
-          Lernen, Denken, Entdecken Malen, Reisen, Schreiben,+
+          Lesen, Entdecken, Malen, Reisen, Schreiben, Spazieren gehen
         </Paragraph>
       </Section>
 
@@ -150,28 +129,17 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
-            <Link href="https://twitter.com/28nh04" target="_blank">
+          <ListItem>
+            <Link href="https://www.amazon.de/s?i=digital-text&rh=p_27%3Acomi+simon&s=relevancerank&language=en&text=comi+simon&ref=dp_byline_sr_ebooks_1" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<AiOutlineAmazon />}
               >
-                @28nh04
+                @comi simon
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
-            <Link href="https://github.com/28n" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
-              >
-                @28n
-              </Button>
-            </Link>
-          </ListItem> */}
         </List>
       </Section>
     </Container>
