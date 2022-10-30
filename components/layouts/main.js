@@ -8,8 +8,9 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Comi Simon's Homepage" />
+        <meta name="description" content="Comi Simon - Autor" />
         <meta name="author" content="Comi Simon" />
+        <meta name="keywords" content="Comi Simon, comi simon, comisimon, comi, simon, Comi, Simon, Autor, Autor Comi Simon, Comi Simon Autor, Simon Comi Autor, Autor Simon Comi" />
         {/* <meta name="author" content="28n" /> */}
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
